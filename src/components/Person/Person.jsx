@@ -1,6 +1,8 @@
 export const Person = ({ person }) => {
+  // eslint-disable-next-line prettier/prettier
   const { name, age, sex, isMarried, partnerName } = person;
 
+  // eslint-disable-next-line prettier/prettier
   const partnerRole = sex === 'm' ? 'wife' : 'husband';
 
   const partnerText = isMarried
